@@ -1,0 +1,16 @@
+- Planning to create GitHub repo for code and share it with you both so you can check in with what I'm doing
+
+- First thing I did this week was plan out the roadmap I sent you
+- Have made progress on implementing that
+
+- Next step of the roadmap was to use Watson's NLU API
+- Signed up for Bluemix and started expermenting with that
+- Discovered the Python wrapper for this API and explored that
+- Got to a stage where I could use this API to analyze tweets I had pulled from the twitter API
+
+- Next step was to use MongoDB to store the tweets and analyzed information
+- Downloaded MongoDB and played around with the shell to get a general idea of
+
+
+- All the coding I did last week was basically API calls in a Python file with no structure
+- Worked on adding functions to the code I have written so far

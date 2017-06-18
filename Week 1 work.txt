@@ -1,0 +1,50 @@
+- Haven't quite been able to do as much as I would like this week due to dental issues I mentioned
+- Have lost many days of work due to severe pain
+- The extraction was difficult to preform so I have still been in pain the last couple of days
+- I need to have another extraction in 2 weeks so I will lose 1-2 days of working time then
+- If needed, I can get a note from the dentist
+
+Twitter:
+- Created a Twitter account and generated an API key
+- Experimented with Bear's python-twitter which is a Python wrapper around the Twitter API 
+	- https://python-twitter.readthedocs.io/en/latest/
+- Experimented with Twitter's advanced search queries
+	- built up queries to pull things such as the latest 50 tweets for a given hashtag for example
+
+Natural Language Processing:
+- Followed this kaggle tutorial that I found from the link you sent me in the e-mail 
+	- https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words
+- Tutorial was about classification of movies review from IMDB as positive or negative
+
+- Was introducted to the pandas Python package which is used to manipulate labelled data sets
+	- Specfically, in the tutorial it used for reading in a tab-seperated file, ensuring the header row and any double quotes in the file were ignored
+
+- Was introduced to the BeatifulSoup package for removing HTML tags from a string
+
+- Regular expression was used in the tutorial which I am already familar with 
+	- Regex pattern was used to replace anything that wasn't a letter with a space
+
+- Was introduced to NTLK
+	- Downloaded the dataset of stopwords
+	- Used this data set to remove any stopwords from the review
+
+- This was then all put together in a function that 'cleaned' the review 
+	- HTML tags, non-letters and stop words were all removed
+
+
+- Was introduced to scikit-learn which is a machine learning library
+	- A Bag-of-words of the 5000 most frequent words was built up from the clean reviews
+	- Already familar with the concept of a bag-of-words:
+		- Build up a vector of each word that occurs (top 5000 in this case)
+		- Each index in the vector corrosponds to a word
+		- For each review, each time a word occurs, increment the index that corrosponds to that word
+	
+	- A Random Forest classifier was built up from the bag-of-words
+		- Was not familar with a random forest but I was familar with decision trees
+		- Random Forest, you take multiple random subsets of the data and build a decision tree for each subset
+		- Unsure precisely how the trees are built, I am familar with Naive Bayes and Hunt's algorithm but I don't know how they are built with 		  Random Forests in scikeat-learn
+
+- From this tutorial, I can see how all this can be applied to Tweets
+- I am planning to try and combine the 2 pieces of NLP and the python-twitter wrapper together
+
+- Should I try and find some existing labelled Twitter data or create some myself?
